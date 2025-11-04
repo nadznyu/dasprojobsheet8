@@ -20,3 +20,17 @@
 2. Bintang akan tercetak sebanyak 6 kali, dan barisnya sebanyak 5. Karena perulangan dalam diperuntukkan untuk mencetak bintang, sehingga jika inisialisasi i diubah menjadi 0, maka output akan mencetak bintang dari angka 0,1,2,3,4,5.
 3. Perulangan luar untuk menampilkan baris, sedangkan perulangan dalam untuk mencetak bintang.
 4. Untuk memisahkan baris saat mencetak bintang. Jika sintaks System.out.println(); dihilangkan, maka bintang akan tercetak di baris yang sama. 
+
+**Pertanyaan Percobaan 3**
+1. Perhatikan, apakah output yang dihasilkan dengan nilai N = 5 sesuai dengan tampilan berikut?
+*
+**
+***
+****
+*****
+2. Jika tidak sesuai, bagian mana saja yang harus diperbaiki/ditambahkan? Jelaskan setiap bagian yang perlu diperbaiki/ditambahkan.
+3. Silakan commit dan push ke repository Anda.
+
+**Jawaban Percobaan 3**
+1. Tidak sesuai.
+2. Menambahkan System.out.println(); di baris sebelum i++ agar setiap perulangan i barisnya terpisah.
